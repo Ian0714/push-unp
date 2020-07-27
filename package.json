@@ -2,8 +2,9 @@
   "name": "push-unp",
   "version": "1.0.0",
   "description": "Application for me to encourage pushups",
-  "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js --delay 2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ian0714/push-unp.git"
@@ -15,6 +16,10 @@
   },
   "homepage": "https://github.com/Ian0714/push-unp#readme",
   "dependencies": {
+    "@babel/preset-env": "^7.10.4",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
