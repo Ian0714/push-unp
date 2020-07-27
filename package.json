@@ -1,0 +1,20 @@
+{
+  "name": "push-unp",
+  "version": "1.0.0",
+  "description": "Application for me to encourage pushups",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ian0714/push-unp.git"
+  },
+  "author": "Ian Song",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ian0714/push-unp/issues"
+  },
+  "homepage": "https://github.com/Ian0714/push-unp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
